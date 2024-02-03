@@ -1,0 +1,149 @@
+.footer {
+	width: 100%;
+	background-color: #000;
+}
+.footer-container {
+	padding: 80px 0px 24px 0px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	align-items: center;
+	gap: 60px;
+	flex-shrink: 0;
+}
+.footer-content {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	gap: 87px;
+}
+.footer-menu {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 24px;
+}
+.footer-menu h2 {
+	color: #fafafa;
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px;
+}
+.support-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 16px;
+}
+.support-text h2 {
+	color: #fafafa;
+	font-family: Poppins;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 28px;
+}
+.support-text p {
+	color: #fafafa;
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+}
+.support-text p a {
+	color: #fafafa;
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+}
+.footer-message {
+	display: flex;
+	width: 217px;
+	padding: 12px 0px 12px 16px;
+	align-items: center;
+	gap: 32px;
+	border-radius: 4px;
+	border: 1.5px solid #fafafa;
+}
+.footer-message input {
+	background-color: transparent;
+	width: 130px;
+	border: 1px solid #fafafa;
+	height: 25px;
+	padding: 0 10px;
+	color: #fff;
+	outline: none;
+	border: none;
+}
+.footer-message input::placeholder {
+	color: #fff;
+	opacity: 0.7;
+}
+.footer-line {
+	display: flex;
+	width: 1440px;
+	height: 1px;
+	justify-content: center;
+	align-items: center;
+	background-color: #fff;
+	opacity: 0.3;
+}
+.footer-ubdates {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 16px;
+}
+.footer-line-title {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+.footer-line-title-text {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+}
+.footer-line-title-text p {
+	color: #fff;
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	opacity: 0.3;
+}
+.downland {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 8px;
+}
+.downland-text p {
+	color: #fafafa;
+	font-family: Poppins;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 18px;
+	opacity: 0.7;
+}
+.downland-icon {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+.icon-play {
+	display: flex;
+	flex-direction: column;
+}
+.social-icon {
+	display: flex;
+	align-items: center;
+	gap: 24px;
+}

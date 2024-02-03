@@ -1,0 +1,153 @@
+.product-item {
+	width: 270px;
+	height: 350px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 16px;
+}
+.product-image {
+	width: 100%;
+	height: 250px;
+	background-color: #f5f5f5;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	gap: 47px;
+}
+.product-image .main-image {
+	width: 172px;
+	height: 152px;
+	object-fit: cover;
+	margin-top: 55px;
+	margin-left: 40px;
+}
+.product-image .main-image img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.product-discount {
+	display: inline-flex;
+	padding: 4px 12px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 4px;
+	background-color: #db4444;
+	color: var(--Text, #fafafa);
+	font-family: Poppins;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 18px;
+	position: absolute;
+	top: 12px;
+	left: 12px;
+	cursor: pointer;
+}
+.icons {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 8px;
+	position: absolute;
+	top: 12px;
+	right: 12px;
+}
+.icon {
+	width: 34px;
+	height: 34px;
+	background-color: #fff;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	cursor: pointer;
+}
+.icon img {
+	width: 24px;
+	height: 24px;
+}
+.product-btn {
+	width: 100%;
+	height: 41px;
+	border-radius: 0 0 4px 4px;
+	background-color: #000;
+	color: #fff;
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+	visibility: hidden;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	transition: visibility 0.5s;
+}
+.product-item:hover .product-btn,
+.product-btn:hover {
+	visibility: visible;
+}
+.product-ditail {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 8px;
+	padding: 0 4px;
+}
+.product-ditail > * {
+	margin: 0;
+	padding: 0;
+}
+.product-title {
+	color: #000;
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+}
+.prices {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+.prices p {
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 24px;
+	margin: 0;
+	padding: 0;
+}
+.discount-ptice {
+	color: #db4444;
+}
+.price {
+	color: grey;
+}
+.datail-rating {
+	display: flex;
+	align-items: flex-start;
+	gap: 8px;
+}
+.stars {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+.stars p {
+	margin: 0;
+	padding: 0;
+	color: #000;
+	font-family: Poppins;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 21px;
+	opacity: 0.5;
+	margin-top: 3px;
+	margin-left: 5px;
+}
